@@ -21,6 +21,7 @@ en:
   rubyrailstutor: "Ruby on Rails Tutorial"
   account: "Account"
   contribute: "Contribute Questions"
+  admin_exams: "Exams"
   home: "Home"
   help: "Help"
   about: "About"
@@ -136,6 +137,9 @@ en:
         new:
           create_button: "Save"
   exams:
+    questions:
+      save: "Save"
+      checked: "Checked"
     index:
       start_button: "Start"
       view_button: "View"
@@ -183,6 +187,11 @@ en:
   time_format: "%H:%M:%S"
   date_format: "%Y/%m/%d"
   datetime_format: "%Y-%m-%d %l:%M %p"
+  date:
+    formats:
+      default: "%m-%d-%Y"
+      long: "%B %d, %Y"
+      short: "%b %d"
   edituser: "Edit User"
   updateuser: "Update Your Profile"
   settings: "Settings"

@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
       redirect_to login_url
     end
   end
-
+  # Day la thay doi
   def load_user
     @user = User.find_by id: params[:id]
     unless @user
